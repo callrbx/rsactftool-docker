@@ -2,4 +2,4 @@
 
 echo "Running Provided RSACTFTools test script"
 
-docker run --entrypoint tests.sh 
+docker run --entrypoint ./test.sh callrbx/rsactftool:latest
